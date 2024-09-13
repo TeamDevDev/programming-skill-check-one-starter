@@ -74,13 +74,13 @@ setup: |
 # Question 1
 
 - description: Run checks for Question 1 Part (a) with 'execexam' command and confirm correct exit code
-  command: poetry run execexam . tests/ --mark "question_one_part_a" --no-fancy
+  command: poetry run execexam . tests/ --mark "question_one_part_a" --no-fancy --report status
 
 - description: Run checks for Question 1 Part (b) with 'execexam' command and confirm correct exit code
-  command: poetry run execexam . tests/ --mark "question_one_part_b" --no-fancy
+  command: poetry run execexam . tests/ --mark "question_one_part_b" --no-fancy --report status
 
 - description: Run checks for Question 1 Part (c) with 'execexam' command and confirm correct exit code
-  command: poetry run execexam . tests/ --mark "question_one_part_c" --no-fancy
+  command: poetry run execexam . tests/ --mark "question_one_part_c" --no-fancy --report status
 
 # }}}
 
